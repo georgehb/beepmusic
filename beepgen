@@ -1,0 +1,33 @@
+#!/bin/bash
+
+TEMPO=""
+FREQ=""
+DURA=""
+TUNE=""
+for VAL in $@; do
+    # Collect values into variables
+    if [ "$TEMPO" == "" ]; then
+        TEMPO=$(( 60000 / VAL ))
+    elif [ "$FREQ" == "" ];then 
+        FREQ=$VAL;
+    elif [ "$DURA" == "" ];then 
+        DURA=$VAL;
+    fi;
+
+    # Replace frequency 0Hz to 1Hz (beep doesn't like 0Hz)
+    if [ "$FREQ" == 0 ];then
+        FREQ=1;
+    fi;
+
+    # Build TUNE and reset variables
+    if [ -n "$FREQ" ] && [ -n "$DURA" ]; then
+        if [ "$TUNE" == "" ]; then
+            TUNE=" -d $TEMPO -f $FREQ -l $((TEMPO * DURA))"
+        else
+            TUNE="$TUNE -n -f $FREQ -l $((TEMPO * DURA))"
+        fi
+        FREQ=""
+        DURA=""
+    fi;
+done
+echo $TUNE
