@@ -1,0 +1,23 @@
+% crotchet  = 12
+% trip quav = 4
+% quaver    = 6
+% semi quav = 3
+1800
+
+bb3*12 r*12 r*8                                    % bar 1
+% bb2*4 bb2*4 bb2*4 bb2*8 
+bb3*4 bb3*4 bb3*4 bb3*4
+bb3*8 ab3*4 bb3*12 r*8
+% ab2*4 ab2*4 ab2*8 
+bb3*4 bb3*4 bb3*4 bb3*4
+bb3*8 ab3*4 bb3*12 r*8
+% gb2*4 gb2*4 gb2*8 
+bb3*4 bb3*4 bb3*4 bb3*4
+bb3*6 f3*3 f3*3 f3*6 f3*3 f3*3 f3*6 f3*3 f3*3 f3*6 f3*6
+
+% bar 5
+bb3*12 f3*4 c3*4 bb2*4 d3*9 bb3*3 bb3*3 c4*3 d4*3 eb4*3
+f4*9 bb3*3 bb3*3 c4*3 d4*3 eb4*3 f4*6 f4*6 f4*4 gb4*4 ab4*4
+bb4*9
+
+
