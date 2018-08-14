@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Plays battle music. uncomment while loop at own risk
+
 introtune=$(./beepgen $(./timing.sh trainerbattleintro))
 looptune=$(./beepgen $(./timing.sh trainerbattleloop))
 
