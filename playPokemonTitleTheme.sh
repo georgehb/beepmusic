@@ -2,8 +2,8 @@
 
 #Plays Pokemon Title Theme. 
 
-introtune=$(./beepgen $(./timing.sh PokemonTitleThemeIntro))
-looptune=$(./beepgen $(./timing.sh PokemonTitleThemeMain))
+introtune=$(./beepgen $(./timing.sh pokemon/PokemonTitleThemeIntro))
+looptune=$(./beepgen $(./timing.sh pokemon/PokemonTitleThemeMain))
 
 beep $introtune
 beep $looptune
