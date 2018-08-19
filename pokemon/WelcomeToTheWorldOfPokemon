@@ -1,0 +1,26 @@
+% 4/4 time
+% crotchet = 12
+% quaver = 6
+% semiquaver = 3
+
+% 6/8 time
+% dotted crotchet = 12
+% crotchet = 8
+% minim = 16
+% quaver = 4
+% semiquaver = 2
+% dotted quav = 6
+
+1508
+
+% bar 2 4/4
+e3*18 a2*3 e3*3 f#3*18 a3*6      g#3*5 r*4 e3*3 f#3*18 r*6 d#2*12
+e3*18 a2*3 e3*3 f#3*18 a3*6      g#3*5 r*4 e3*3 b3*18 r*6 g#2*12
+
+% bar 6 6/8
+c#4*14 r*2 b3*4 a3*4     b3*14 r*2 a3*4 g#3*4     a3*14 r*2 g#3*4 f#3*4     g#3*12 f#3*6 e3*6
+d3*6 d3*2 e3*4 f#3*20       r*4 a3*12       g#3*4 r*4 f#3*4 e3*20
+
+% bar 13
+r*4 f#3*6 e3*6      d3*6 d3*3 e3*3 f#3*6 f#3*3 g#3*3     a3*12 c#4*12
+b3*4 r*4 a3*4 g#3*20  r*16
