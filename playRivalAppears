@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Plays battle music. uncomment while loop at own risk
+
+introtune=$(./beepgen $(./timing.sh pokemon/RivalAppearsIntro))
+looptune=$(./beepgen $(./timing.sh pokemon/RivalAppearsMain))
+
+beep $introtune
+#while true
+#do
+    beep $looptune
+    beep $looptune
+#done
