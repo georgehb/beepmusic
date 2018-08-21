@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#Plays battle music. uncomment while loop at own risk
+
+tune=$(./beepgen $(./timing.sh $@))
+
+beep $tune
+beep $tune
+beep $tune
