@@ -1,0 +1,23 @@
+% crotchebbbt = 2
+
+280
+
+% bbabbr 66
+g3*1 c4*1 d4*1      eb4*2 f4*1 d4*2 bb3*2 g3*2
+f3*1 g3*1 r*2 g3*1 c4*1 d4*1      eb4*2 f4*1 d4*2 bb3*2 g4*2
+
+% bbabbr 69
+f4*1 g4*2 r*1 g4*1 g4*1 g4*1    ab4*2 eb4*1 d4*2 ab4*1 ab4*1 ab4*1
+g4*2 d4*1 c4*2 g4*1 g4*1 g4*1   f4*2 c4*1 b3*2 ab4*2 g4*1
+
+% bbabbr 73
+f4*1 g4*2 r*1 g3*1 c4*1 d4*1      eb4*2 f4*1 d4*2 bb3*2 g3*2
+f3*1 g3*1 d3*2 g3*1 c4*1 d4*1      eb4*2 f4*1 d4*2 bb3*2 g4*2
+
+% bbabbr 77
+f4*1 g4*1 d4*2 g4*1 g4*1 g4*1    ab4*2 eb4*1 d4*2 ab4*1 ab4*1 ab4*1
+g4*2 d4*1 c4*2 g4*1 g4*2         f4*2 eb4*1 d4*2 eb4*1 r*2
+
+c4*8
+
+
